@@ -1,0 +1,16 @@
+EXPERIMENT_NAME = "lstm"
+MODEL_NAME = "lstm"
+CORPUS_NAME = "cornell_movie_dialogs"
+BATCH_SIZE = 64
+TEST_SIZE = 0.2
+ENCODED_DATA = "dataset/pairs_encoded.json"
+DEVICE = "cuda"
+EMBEDDING_DIM = 62
+HIDDEN_SIZE = 128
+MAX_LEN = 5
+ATTENTION_METHOD = "dot"
+LEARNING_RATE = 0.0001
+EPOCHS = 100
+PATIENCE = 3
+GAMMA = 0.1
+STEP_SIZE = 5
